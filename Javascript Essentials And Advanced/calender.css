@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fclock {
+    height: 60px;
+    width: 415px;
+    border: 5px solid rgba(36, 132, 132, 255);
+    margin: auto;
+    background-color: rgba(172, 208, 220, 255);
+    border-radius: 10px;
+}
+
+.first-clock {
+    padding: 5px;
+}
+
+.sclock {
+    border: 5px solid transparent;
+    border-image: linear-gradient(to right, aqua, orange, hotpink)1;
+    border-radius: 15px;
+    height: 60px;
+    width: 415px;
+    margin: auto;
+    margin-top: 20px;
+    background-color: rgba(44, 61, 77, 255);
+    clip-path:inset(0 0 0 0 round 10px );
+}
+
+.second-clock {
+    font-family: "Tourney", serif;
+    font-weight: 600;
+    font-size: 50px;
+    font-weight: bold;
+    background-image: linear-gradient(to right, aqua, orange, hotpink);
+    -webkit-background-clip: text;
+    color: transparent;
+    text-align: center;
+}
